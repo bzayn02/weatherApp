@@ -42,6 +42,9 @@ h1 {
 .app .search {
   text-align: center;
   padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .app input {
@@ -94,4 +97,10 @@ h1 {
 
 .bold {
   font-weight: 700;
+}
+
+.app .currentTime {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
 }
